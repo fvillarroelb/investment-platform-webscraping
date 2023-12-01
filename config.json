@@ -1,0 +1,25 @@
+{
+    "selenium":{
+       "seleniumPort":4444,
+       "seleniumDebug":false
+    },
+    "dataBase":{
+       "collectionInvestment":"inversiones",
+       "collectionInvestmentGroup":"inversionesxday"
+    },
+    "racional":{
+       "flagScroll":true,
+       "loginPageUrl":"https://app.racional.cl/login",
+       "movementsPageUrl":"https://app.racional.cl/tabs/movements"
+    },
+    "renta4":{
+      "flagTest":false,
+       "loginPageUrl":"https://webprivate.renta4.cl/www/login.html",
+       "movementsPageUrl":"https://webprivate.renta4.cl/www/movimientosperiodo.html"
+    },
+    "googleSheets":{
+       "spreadsheetsInvestment":"inversiones",
+       "spreadsheetsCashFlow":"inversiones-cashflow",
+       "spreadsheetsInvestmentGroup":"inversiones-x-day"
+    }
+ }
